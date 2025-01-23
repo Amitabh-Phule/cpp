@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+#include<iostream>
+
+int main()
+{
+  int a,b,temp;
+  std::cout<<"Enter the values of A & B";
+  std::cin>>a>>b;
+  temp=a;
+  a=b;
+  b=temp;
+  std::cout<<a<<"\t"<<b; 
+}
